@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="obj1" class="ClassForTest">
+<!--    <property name="num" value="13"></property>-->
+    <constructor-arg name="numParam" value="26" type="int"></constructor-arg>
+    <constructor-arg name="flagParam" value="true" type="boolean" ></constructor-arg>
+</bean>
+<!--<bean id="obj2" class="ClassForTest">-->
+<!--    &lt;!&ndash;    <property name="num" value="13"></property>&ndash;&gt;-->
+<!--    <constructor-arg name="numParam" value="26" type="int"></constructor-arg>-->
+<!--    <constructor-arg name="flagParam" value="false" type="boolean" ></constructor-arg>-->
+<!--    <constructor-arg name="nameParam" value="JZW" type="java.lang.String" ></constructor-arg>-->
+<!--</bean>-->
+</beans>
